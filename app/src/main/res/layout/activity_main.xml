@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:background="@android:color/transparent"
+        android:text="Lewati"
+        android:textColor="@android:color/black"
+        android:textSize="10dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/pixart" />
+    <TextView
+     android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="Mulai buat foto yang mengagumkan!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#fff5f5"
+        android:text="Masukan email Anda"
+        android:textColor="@android:color/darker_gray" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#2c61f2"
+        android:text="Buat akun"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:textColor="#4d4d4d"
+        android:textSize="15dp"
+        android:text="-----    ATAU   -----"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#fff5f5"
+        android:text="SAMBUNGKAN DENGAN GOOGLE"
+        android:textColor="@android:color/darker_gray" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#2c61f2"
+        android:text="SAMBUNGKAN DENGAN FACEBOOK"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="DENGAN MENDAFTAR, ANDA SETUJU KETENTUAN LAYANAN"
+        android:textAlignment="center"
+        android:textColor="#4d4d4d"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="#4d4d4d"
+        android:textSize="15dp"
+        android:text="SUDAH PUNYA AKUN?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:textColor="#6e35fc"
+        android:textSize="10dp"
+        android:text="MASUK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
